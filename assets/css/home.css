@@ -1,0 +1,66 @@
+#title{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+/* description box */
+#des{
+    margin-top: 0px;
+}
+#des-tit{
+    color: rgb(141, 134, 134);
+}
+#des-inp{
+    margin: 0px 1vw;
+    border: none;
+    width: 90vw;
+    height: 10vh;
+   
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  rgb(231, 247, 248);
+    border-radius: 15px;
+    padding: 0px 8px;
+}
+/* category box */
+#cat-cont{
+    position: absolute;
+    width: 50vw;
+}
+#cat-inp{
+    position: absolute;
+    top: 9vh;
+    border: none;
+    margin-left: 1vw;
+    width: 37.3vw;
+    height: 6.8vh;
+    cursor: pointer;
+    background-color: rgb(231, 247, 248);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 8px;
+}
+#drop{
+    position: absolute;
+    right: 5vw;
+    top: 9vh;
+}
+/* date box */
+#date-cont{
+    position: absolute;
+    left: 50vw;
+    /* border: 2px solid red; */
+    width: 50vw;
+}
+#date-inp{
+    position: absolute;
+    top: 9vh;
+    border: none;
+    margin-left: 1vw;
+    width: 40vw;
+    height: 6.8vh;
+    cursor: pointer;
+    background-color: rgb(231, 247, 248);
+    border-radius: 15px;
+    padding:0px 28px;
+}
