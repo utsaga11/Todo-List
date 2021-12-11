@@ -27,19 +27,6 @@
     position: absolute;
     width: 50vw;
 }
-#cat-inp{
-    position: absolute;
-    top: 9vh;
-    border: none;
-    margin-left: 1vw;
-    width: 37.3vw;
-    height: 6.8vh;
-    cursor: pointer;
-    background-color: rgb(231, 247, 248);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    padding: 8px;
-}
 #drop{
     position: absolute;
     right: 5vw;
@@ -63,4 +50,31 @@
     background-color: rgb(231, 247, 248);
     border-radius: 15px;
     padding:0px 28px;
+}
+#buttons{
+    display: flex;
+    margin: 0px 20%;
+    position: relative;
+    top: 20vh;
+    left: 15vw;
+}
+#add{
+    position: relative;
+    right: 1vw;
+    font-size: 1.6rem;
+}
+#delete{
+    font-size: 1.6rem;
+}
+#category{
+    position: absolute;
+    top: 9vh;
+    border: none;
+    width: 45vw;
+    margin-left: 1vw;
+    background-color: rgb(231, 247, 248);
+    border-radius: 15px;
+    padding:4px 25px;
+    font-size: 1.4rem;
+    font-family: serif;
 }
