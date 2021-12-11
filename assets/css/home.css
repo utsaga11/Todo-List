@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 #title{
     font-size: 2.5rem;
     font-family: sans-serif;
@@ -60,8 +63,8 @@
 }
 #add{
     position: relative;
-    right: 1vw;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
+    padding: 0px 35px;
 }
 #delete{
     font-size: 1.6rem;
@@ -77,4 +80,35 @@
     padding:4px 25px;
     font-size: 1.4rem;
     font-family: serif;
+}
+/* items */
+#items{
+    position: relative;
+    top: 30vh;
+    display: flex;
+}
+#list{
+    margin: 0px 2vh;
+    background-color: rgb(253, 248, 242);
+    list-style: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    width: 95vw;
+}
+#des-w{
+    margin-left: 5vw;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#suit{
+    margin-right: 10px;
+}
+#cat-w{
+   color: deeppink;
+   font-weight: 800;
+}
+#date{
+    font-family: sans-serif;
+    color: darkred;
+    margin-top: 4px;
 }

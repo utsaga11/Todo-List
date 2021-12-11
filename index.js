@@ -28,6 +28,17 @@ app.post('/create-task', (req,res)=>{
     });
 });
 
+app.get('/delete-task',(req,res)=>{
+    let id = req.query.id;
+    task.findByIdAndDelete(id, (err)=>{
+        if(err){
+            console.log("Error in deleting from database");
+            return;
+        }
+        return res.redirect('back');
+    });
+});
+
 app.listen(port, (err)=>{
     if(err){
         console.log("Error in connecting to port");

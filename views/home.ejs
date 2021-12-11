@@ -62,12 +62,20 @@
     <div id="buttons">
         <button type="submit" class="btn btn-success" id="add" form="create-task"><i class="fas fa-plus"></i> ADD
             TASK</button>
-        <button type="button" class="btn btn-danger" id="delete"><i class="fas fa-trash-alt"></i> DELETE TASKS
-        </button>
+        <!-- <button type="button" class="btn btn-danger" id="delete"><i class="fas fa-trash-alt"></i> DELETE TASKS
+        </button> -->
     </div>
-    <!-- <form action="/delete-task">
-      
-    </form> -->
+    <div id="items">
+        <ul>
+            <% for(let i of Tasks){%>
+                <li id="list"><span id="des-w"> <i class="fas fa-briefcase" id="suit"></i><%=i.description%> </span>
+                    <span id="cat-w"><%= i.category %></span>
+                    <p id="date">  <i class="fas fa-calendar-alt"></i> <%=i.date%>  <a href="/delete-task/?id=<%=i.id%>"><i class="fas fa-trash"></i></a> </p>
+                </li>
+                <%}
+            %>
+        </ul>
+    </div>
 
 
 
