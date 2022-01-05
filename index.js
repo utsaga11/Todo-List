@@ -1,4 +1,7 @@
 const express = require('express');
+const cookieParser = require('cookie-parser');
+const task = require('./models/todolist');
+
 const app = express();
 const port = 8000;
 
@@ -7,8 +10,9 @@ app.set('views', './views');
 app.use(express.urlencoded());
 
 const db = require('./config/mongoose');
-const task = require('./models/todolist');
 
+app.use(express.urlencoded());
+app.use(cookieParser);
 app.use(express.static('./assets'));
 
 app.use('/', require('./routes/index'));

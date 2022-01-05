@@ -88,12 +88,12 @@
     display: flex;
 }
 #list{
-    margin: 0px 2vh;
+    margin: 0px 0vh;
     background-color: rgb(253, 248, 242);
     list-style: none;
     padding-left: 20px;
     border-radius: 20px;
-    width: 95vw;
+    width: 1000px;
 }
 #des-w{
     margin-left: 5vw;
@@ -108,7 +108,10 @@
    font-weight: 800;
 }
 #date{
+    /* display: inline; */
     font-family: sans-serif;
     color: darkred;
     margin-top: 4px;
+    /* left: 50px; */
+    margin-left: 50px;
 }
